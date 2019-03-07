@@ -2,7 +2,7 @@
     height: 100vh;
     min-height: 350px;
     /* margin-bottom: 60px; */
-    background: url(/Users/kihamoore/Desktop/Bootcamp/Bootstrap-Portfolio/images/black-and-white-blur-charger-396158.jpg) no-repeat center center;
+    background: url(images/black-and-white-blur-charger-396158.jpg) no-repeat center center;
     background-size: cover;
 }
 .jumbotron-container {
@@ -52,4 +52,62 @@ h4{
 
 h5{
     color:grey;
+}
+
+.split-box{
+	position:absolute;
+	width:50%;
+	height:100%;
+}
+ 
+.left-box {
+    left:0;
+    background-color: grey;
+}
+ 
+.right-box {
+	right:0;
+	
+}
+
+.kihapic{
+    width:100px;
+    height:100px;
+    margin-top:200px;
+
+}
+
+.kihap{
+    margin-bottom:30px;
+    text-align: center;
+
+}
+
+.aboutmeh3{
+   text-align:center;
+   margin-top:280px;
+   line-height:50px;
+   
+
+}
+
+hr{
+    width:200px;
+
+}
+.aboutmep{
+    display: inline-block;
+    vertical-align: middle;
+    color:white;
+    opacity: 0.5;
+    margin:o 40px;
+}
+  
+.aboutfooter{
+    margin-top:750px;
+
+}
+
+.footercontact{
+    margin-top:200px;
 }
