@@ -77,6 +77,11 @@ h5{
 
 }
 
+span{
+    font-weight: bold;
+    color:red;
+}
+
 .kihap{
     margin-bottom:30px;
     text-align: center;
