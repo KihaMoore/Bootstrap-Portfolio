@@ -70,6 +70,26 @@ h5{
 	
 }
 
+@keyframes typing { from { width: 0; } }
+    @keyframes caret { 50% { border-color: transparent; } }
+
+.aboutmeh3{
+    
+    font-family: monospace; 
+    width: 12ch;
+    border-right: .09em solid;
+    overflow: hidden;
+    font-size: 6em;
+    white-space: nowrap;
+    animation: typing 5s steps(11, end), caret .5s step-end infinite;
+    padding-bottom:14px;
+    }
+
+
+
+
+
+
 .kihapic{
     width:100px;
     height:100px;
