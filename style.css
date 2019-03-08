@@ -63,6 +63,7 @@ h5{
 .left-box {
     left:0;
     background-color: grey;
+    z-index: -1;
 }
  
 .right-box {
@@ -79,7 +80,7 @@ h5{
     width: 12ch;
     border-right: .09em solid;
     overflow: hidden;
-    font-size: 6em;
+    font-size: 5em;
     white-space: nowrap;
     animation: typing 5s steps(11, end), caret .5s step-end infinite;
     padding-bottom:14px;
@@ -99,12 +100,13 @@ h5{
 
 span{
     font-weight: bold;
-    color:red;
+    color:black;
 }
 
 .kihap{
     margin-bottom:30px;
     text-align: center;
+    color:rgb(241, 146, 116);
 
 }
 
@@ -112,6 +114,7 @@ span{
    text-align:center;
    margin-top:200px;
    line-height:50px;
+   color:rgb(241, 146, 116);
    
 
 }
@@ -125,7 +128,8 @@ hr{
     vertical-align: middle;
     color:white;
     opacity: 0.5;
-    margin:o 40px;
+    padding-left:20px;
+    padding-right:20px;
 }
   
 .aboutfooter{
