@@ -290,7 +290,7 @@ hr{
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 640px) {
 
     .jumbotron-extend {
         height: 100vh;
@@ -334,13 +334,13 @@ hr{
     
     .imagesforG{
     
-        height:300px;
-        width:300px;
+        height:80%;
+        width:80%;
     }
     h4{
         text-align:center;
-        padding-top:50px;
-        padding-bottom:40px;
+        padding-top:20px;
+        padding-bottom:10px;
         color:grey;
     }
     
@@ -348,7 +348,7 @@ hr{
         color:grey;
     }
     
-    .split-box{
+    /* .split-box{
         position:absolute;
         width:50%;
         height:100%;
@@ -364,9 +364,9 @@ hr{
         right:0;
         
     }
-    
-    @keyframes typing { from { width: 0; } }
-        @keyframes caret { 50% { border-color: transparent; } }
+     */
+    /* @keyframes typing { from { width: 0; } }
+        @keyframes caret { 50% { border-color: transparent; } } */
     
     .aboutmeh3{
         
