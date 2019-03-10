@@ -289,3 +289,150 @@ hr{
         margin-top:200px;
     }
 }
+
+@media screen and (max-width: 400px) {
+
+    .jumbotron-extend {
+        height: 100vh;
+        min-height: 350px;
+        /* margin-bottom: 60px; */
+        background: url(images/black-and-white-blur-charger-396158.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .jumbotron-container {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .site-name {
+        margin-bottom: 60px;
+        font-family: 'Playfair Display', serif;
+        color:white;
+    }
+    .btn-black {
+        border-radius: 0;
+        background-color: rgb(207, 204, 204);
+        color: #fff;
+        font-family: 'Avenir', serif;
+    }
+    .btn-black:hover {
+        background-color: rgb(241, 238, 238);
+        color: #000;
+    }
+    
+    .sns{
+        height:50px;
+         width:50px;
+         float:right;
+         margin-top:300px;
+         line-height: 50px;
+    }
+    
+    .imagesforG{
+    
+        height:300px;
+        width:300px;
+    }
+    h4{
+        text-align:center;
+        padding-top:50px;
+        padding-bottom:40px;
+        color:grey;
+    }
+    
+    h5{
+        color:grey;
+    }
+    
+    .split-box{
+        position:absolute;
+        width:50%;
+        height:100%;
+    }
+     
+    .left-box {
+        left:0;
+        background-color: grey;
+        z-index: -1;
+    }
+     
+    .right-box {
+        right:0;
+        
+    }
+    
+    @keyframes typing { from { width: 0; } }
+        @keyframes caret { 50% { border-color: transparent; } }
+    
+    .aboutmeh3{
+        
+        font-family: monospace; 
+        width: 10ch;
+        border-right: .09em solid;
+        overflow: hidden;
+        font-size: 2em;
+        white-space: nowrap;
+        animation: typing 5s steps(11, end), caret .5s step-end infinite;
+        padding-bottom:14px;
+        }
+    
+    
+    
+    
+    
+    
+    .kihapic{
+        width:100px;
+        height:100px;
+        margin-top:200px;
+    
+    }
+    
+    span{
+        font-weight: bold;
+        color:black;
+    }
+    
+    .kihap{
+       
+         padding-bottom:60px;    
+         text-align: center;
+         color:rgb(241, 146, 116);
+    
+    }
+    
+    .aboutmeh3{
+       text-align:center;
+       margin-top:50px;
+       line-height:20px;
+       color:rgb(241, 146, 116);
+       
+    
+    }
+    
+    hr{
+        width:200px;
+    
+    }
+    .aboutmep{
+        display: inline-block;
+        vertical-align: middle;
+        color:white;
+        opacity: 0.5;
+        padding-left:10px;
+        padding-right:10px;
+    }
+      
+    .aboutfooter{
+        margin-top:650px;
+    
+    }
+    
+    .footercontact{
+        margin-top:200px;
+    }
+}
